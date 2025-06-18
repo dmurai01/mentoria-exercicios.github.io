@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "nome": "Ana Silva",
+        "vip": true
+    },
+    {
+        "id": 2,
+        "nome": "Claudio Assunção",
+        "vip": true
+    },
+    {
+        "id": 3,
+        "nome": "Gorete Alencar",
+        "vip": false
+    },
+    {
+        "id": 4,
+        "nome": "Alcides Linhares",
+        "vip": false
+    },
+    {
+        "id": 5,
+        "nome": "Gabriela Vaz",
+        "vip": true
+    },
+    {
+        "id": 6,
+        "nome": "Amauri Souza",
+        "vip": true
+    },
+    {
+        "id": 7,
+        "nome": "Vanessa Lima",
+        "vip": false
+    },
+    {
+        "id": 8,
+        "nome": "Mauricio Lemes",
+        "vip": true
+    },
+    {
+        "id": 9,
+        "nome": "Lorival Almeida",
+        "vip": false
+    }
+]

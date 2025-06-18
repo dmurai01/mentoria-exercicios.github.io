@@ -7,6 +7,7 @@
   <!-- <link rel="stylesheet" href="src/style.css" /> -->
 </head>
 <script src="src/problema1.js"></script>
+<script src="src/problema2.js"></script>
 
 <body>
   <h1 id="header">Exercícios</h1>
@@ -46,10 +47,20 @@
     Sequência de passos:
     <ul>
       <li>Informar o valor do pedido</li>
-      <li>Informar se o cliente é VIP</li>
+      <li>Verificar se o cliente é VIP</li>
       <li>Calcular o desconto de 10% se o cliente for VIP</li>
       <li>Exibir resultado</li>
     </ul>
+    <div id="form-problema2">
+      <label for="lb-valor-produto2">Valor do Produto</label>
+      <input type="text" id="input-valor-produto2">
+      <label for="lb-cliente">Selecione o Cliente</label>
+      <select name="select-clientes" id="select-clientes">
+        <option value="">Seleciona um Cliente</option>
+      </select>
+      <button id="btn-verificar-desconto">Verificar Desconto</button>
+      <div id="resultado-problema2"></div>
+    </div>
   </div>
 
 </body>
