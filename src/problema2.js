@@ -31,9 +31,9 @@ document.addEventListener('DOMContentLoaded', () => {
             );
             if (clienteSelecionado && clienteSelecionado.vip) {
                 const calculaDescontoVip = valorProduto2.value - (valorProduto2.value*0.10)
-                resultadoProblema2.textContent = `Cliente VIP: ${calculaDescontoVip}`
+                resultadoProblema2.textContent = `Cliente ${clienteSelecionado.nome} é VIP: R$ ${calculaDescontoVip}`
             } else {
-                resultadoProblema2.textContent = `Cliente não é VIP: ${valorProduto2.value}`
+                resultadoProblema2.textContent = `Cliente ${clienteSelecionado.nome} não é VIP: R$ ${valorProduto2.value}`
             }
         }
 

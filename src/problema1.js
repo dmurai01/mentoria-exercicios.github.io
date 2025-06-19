@@ -13,8 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
             alert('Preencher porcentagem do desconto')
         }
         const calculaDesconto = valorProduto.value - (valorProduto.value * (descontoPorcento.value/100))
-        console.log(calculaDesconto)
-        resultadoProblema1.textContent = `Resultado Problema 01: ${calculaDesconto}`
+        resultadoProblema1.textContent = `Resultado Problema 01: R$ ${calculaDesconto}`
     });
 
 
