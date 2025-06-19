@@ -6,8 +6,37 @@ body {
     color: rgb(63, 0, 122);
     padding-left: 20px;
 }
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 15px;
+}
 h2 {
     padding-top: 30px;
+}
+button {
+    padding: 10px 20px;
+    background-color: #36002e;
+    color: white;
+    border: 1px solid #36002e;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em; 
+    margin-top: 10px;   
+}
+button:disabled {
+    background-color: #d3d3d3;
+    border-color: #d3d3d3;
+    cursor: not-allowed;
+}
+button:hover {
+    background-color: #970080;
+    border-color: #970080;
+}
+label {
+    margin: 10px auto;
 }
 .problema {
     max-width: 90%;

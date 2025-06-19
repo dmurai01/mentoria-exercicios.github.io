@@ -13,40 +13,43 @@
 </head>
 
 <body>
-  <h1 id="header">Exercícios</h1>
-  <h2>Problema 01</h2>
-  <div id="problema1" class="problema">
-    <p>Calcular qual valor pagar em um produto após aplicar um desconto a ele.</br>
-      Exemplo: Tenho um produto que custa R$ 55,00 e a loja me deu um desconto de 10%.</br>
-      Quero descobrir quanto irei pagar nesse produto.</p>
-    <p>Solução: Saber o valor atual do produto, saber valor do desconto, mostrar valor com desconto</p>
-    Sequência de passos:
-    <ul>
-      <li>Informe o valor atual do produto</li>
-      <li>Informe o desconto (%)</li>
-      <li>Faça o calculo (valor do desconto, valor do produto com desconto)</li>
-      <li>Mostre o resultado</li>
-    </ul>
+  <div class="container">
+    <h1 id="header">Exercícios</h1>
+    <h2>Problema 01</h2>
+    <div id="problema1" class="problema">
+      <p>Calcular qual valor pagar em um produto após aplicar um desconto a ele.</br>
+        Exemplo: Tenho um produto que custa R$ 55,00 e a loja me deu um desconto de 10%.</br>
+        Quero descobrir quanto irei pagar nesse produto.</p>
+      <p>Solução: Saber o valor atual do produto, saber valor do desconto, mostrar valor com desconto</p>
+      Sequência de passos:
+      <ul>
+        <li>Informe o valor atual do produto</li>
+        <li>Informe o desconto (%)</li>
+        <li>Faça o calculo (valor do desconto, valor do produto com desconto)</li>
+        <li>Mostre o resultado</li>
+      </ul>
 
-    <div id="input-entradas">
-      <label for="lb-valor-produto">Valor do Produto</label>
-      <input type="text" id="input-valor-produto">
-      <label for="input-desconto">Desconto(%)</label>
-      <input type="text" id="input-desconto">
-      <button id="btn-pesquisar">Pesquisar</button>
+      <div id="input-entradas">
+        <label for="lb-valor-produto">Valor do Produto</label><br />
+        <input type="text" id="input-valor-produto">
+        <br /><br />
+        <label for="input-desconto">Desconto(%)</label><br />
+        <input type="text" id="input-desconto"><br />
+        <button id="btn-pesquisar">Pesquisar</button>
+      </div>
+      <div id="resultado-problema1" class="resultado"></div>
     </div>
-    <div id="resultado-problema1" class="resultado"></div>
-  </div>
 
-  <h2>Problema 02</h2>
-  <div id="problema2" class="problema">
-    <p>Preciso ter um sistema. que aplique desconto de 10% no total do pedido apenas para clientes considerados VIP</br>
-      Exemplo 1:</br>
-      O total do meu pedido é R$ 500,00 e o meu cliente é VIP então o total do pedido deverá ser R$ 450,00</br>
-      Exemplo 2:</br>
-      O total do meu pedido é R$ 500,00 e o meu cliente não é VIP então o total do pedido deverá ser R$ 500,00</p>
+    <h2>Problema 02</h2>
+    <div id="problema2" class="problema">
+      <p>Preciso ter um sistema. que aplique desconto de 10% no total do pedido apenas para clientes considerados
+        VIP</br>
+        Exemplo 1:</br>
+        O total do meu pedido é R$ 500,00 e o meu cliente é VIP então o total do pedido deverá ser R$ 450,00</br>
+        Exemplo 2:</br>
+        O total do meu pedido é R$ 500,00 e o meu cliente não é VIP então o total do pedido deverá ser R$ 500,00</p>
 
-    <!-- <p>Solução: Saber se cliente é Vip ou não, Saber o valor do pedido, Dar desconto de 10% se o cliente for VIP</p>
+      <!-- <p>Solução: Saber se cliente é Vip ou não, Saber o valor do pedido, Dar desconto de 10% se o cliente for VIP</p>
     Sequência de passos:
     <ul>
       <li>Informar o valor do pedido</li>
@@ -62,11 +65,11 @@
         <option value="">Seleciona um Cliente</option>
       </select>
       <button id="btn-verificar-desconto">Verificar Desconto</button>
-      <div id="resultado-problema2"></div>
+      <div id="resultado-problema2" class="resultado"></div>
     </div> -->
 
+    </div>
   </div>
-
 </body>
 
 </html>
