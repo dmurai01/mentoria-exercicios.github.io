@@ -38,6 +38,20 @@ button:hover {
 }
 label {
     margin: 10px auto;
+    font-style: italic;
+    font-weight: bold;
+}
+input {
+    width: 250px;
+    height: 24px;
+    border-radius: 5px;
+    border: none;   
+}
+select {
+    border: none;
+    width: 250px;
+    height: 24px;
+    border-radius: 5px;
 }
 .problema {
     max-width: 90%;

@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="src/styles.css" />
   <script src="src/problema1.js"></script>
   <script src="src/problema2.js"></script>
+  <script src="src/problema3.js"></script>
 </head>
 
 <body>
@@ -19,7 +20,8 @@
     <div id="problema1" class="problema">
       <p>Calcular qual valor pagar em um produto após aplicar um desconto a ele.</br>
         <i>Exemplo: Tenho um produto que custa R$ 55,00 e a loja me deu um desconto de 10%.</br>
-        Quero descobrir quanto irei pagar nesse produto.</i></p>
+          Quero descobrir quanto irei pagar nesse produto.</i>
+      </p>
       <p>Solução: Saber o valor atual do produto, saber valor do desconto, mostrar valor com desconto</p>
       Sequência de passos:
       <ul>
@@ -30,7 +32,7 @@
       </ul>
 
       <div id="input-entradas">
-        <label for="lb-valor-produto">Valor do Produto</label><br />
+        <label for="input-valor-produto">Valor do Produto</label><br />
         <input type="text" id="input-valor-produto">
         <br /><br />
         <label for="input-desconto">Desconto(%)</label><br />
@@ -44,28 +46,52 @@
     <div id="problema2" class="problema">
       <p>Preciso ter um sistema. que aplique desconto de 10% no total do pedido apenas para clientes considerados
         VIP</br>
-        <i>Exemplo 1: O total do meu pedido é R$ 500,00 e o meu cliente é VIP então o total do pedido deverá ser R$ 450,00</br>
-        Exemplo 2: O total do meu pedido é R$ 500,00 e o meu cliente não é VIP então o total do pedido deverá ser R$ 500,00</i></p>
+        <i>Exemplo 1: O total do meu pedido é R$ 500,00 e o meu cliente é VIP então o total do pedido deverá ser R$
+          450,00</br>
+          Exemplo 2: O total do meu pedido é R$ 500,00 e o meu cliente não é VIP então o total do pedido deverá ser R$
+          500,00</i>
+      </p>
 
       <p>Solução: Saber se cliente é Vip ou não, Saber o valor do pedido, Dar desconto de 10% se o cliente for VIP</p>
-    Sequência de passos:
-    <ul>
-      <li>Informar o valor do pedido</li>
-      <li>Verificar se o cliente é VIP</li>
-      <li>Calcular o desconto de 10% se o cliente for VIP</li>
-      <li>Exibir resultado</li>
-    </ul>
-    <div id="form-problema2">
-      <label for="lb-valor-produto2">Valor do Produto</label>
-      <input type="text" id="input-valor-produto2">
-      <label for="lb-cliente">Selecione o Cliente</label>
-      <select name="select-clientes" id="select-clientes">
-        <option value="">Seleciona um Cliente</option>
-      </select>
-      <button id="btn-verificar-desconto">Verificar Desconto</button>
-      <div id="resultado-problema2" class="resultado"></div>
+      Sequência de passos:
+      <ul>
+        <li>Informar o valor do pedido</li>
+        <li>Verificar se o cliente é VIP</li>
+        <li>Calcular o desconto de 10% se o cliente for VIP</li>
+        <li>Exibir resultado</li>
+      </ul>
+      <div id="form-problema2">
+        <label for="input-valor-produto2">Valor do Produto</label><br/>
+        <input type="text" id="input-valor-produto2"><br/><br/>
+        <label for="select-clientes">Selecione o Cliente</label><br/>
+        <select name="select-clientes" id="select-clientes">
+          <option value="">Seleciona um Cliente</option>
+        </select><br/><br/>
+        <button id="btn-verificar-desconto">Verificar Desconto</button>
+        <div id="resultado-problema2" class="resultado"></div>
+      </div>
+
     </div>
 
+    <h2>Problema 03</h2>
+    <div id="problema3" class="problema">
+      <p>Quero uma função capaz de receber uma lista de objetos que representam
+        sites em uma busca do Google, então verificar na lista possui
+        a URL informada. Se sim, escrever teste passou, se não escrever teste falhou.
+      </p>
+      Sequência de passos:
+      <ul>
+        <li>Receber uma lista de objetos</li>
+        <li>Receber URL que irá comparar</li>
+        <li>Comparar a URL recebida com a URL da lista</li>
+        <li>Retornar se a URL recebida existe na lista</li>
+      </ul>
+      <div id="form-problema3">
+        <label for="input-url">URL</label><br/>
+        <input type="text" name="input-url" id="input-url"><br/><br/>
+        <button id="btn-verificar-url">Verificar URL</button>
+        <div id="resultado-problema3" class="resultado"></div>
+      </div>
     </div>
   </div>
 </body>
